@@ -25,7 +25,7 @@ body {
 
 .sticky {
     background: #fff;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06);
     position: fixed;
     width: 100%;
     z-index: 2;
@@ -38,7 +38,7 @@ body {
 
 .navbar-brand p {
     display: inline-block;
-    margin: 15px;
+    margin: 15px 15px 15px 0px;
 }
 
 .navbar-nav li.active {
@@ -51,19 +51,19 @@ body {
 }
 
 .logo-banner {
-    height: 450px;
+    height: 530px;
     vertical-align: top;
-    margin: -80px 0px;
+    margin: -130px 0px 0px 40px;
     position: absolute;
     top: 0;
 }
 
 #banner .banner-text {
-    margin: 40px 0px;
+    margin: 125px 0px;
 }
 
 .arrow-down {
-    margin: 98px 0px 0px;
+    margin: -25px 0px 0px;
     text-align: center;
 }
 
